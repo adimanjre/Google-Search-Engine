@@ -1,6 +1,7 @@
 import Header from "@/app/components/Header";
 import Image from "next/image";
 import {MagnifyingGlassIcon, MicrophoneIcon} from "@heroicons/react/24/solid"
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <button className="btn">I&apos;m Feeling Lucky</button>
        </div>
       </form>
+      <Footer/>
     </>
   );
 }
