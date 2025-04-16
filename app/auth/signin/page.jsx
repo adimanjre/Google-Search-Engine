@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 
 const signin = () => {
  
-  const[providers, setProviders] = useState(null);
+  const[providers, setProviders] = useState();
 
   useEffect(()=>{
    async function getproviders (){
@@ -17,7 +17,6 @@ const signin = () => {
     getproviders();
   },[]);
 
-  console.log(providers);
 
   return (
     <div>
