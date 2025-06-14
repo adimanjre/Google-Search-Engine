@@ -5,7 +5,7 @@ const SearchHeaderOption = ({title, Icon, selected}) => {
     const router = useRouter();
     const params = useSearchParams();
 
-    const style = `flex items-center space-x-1 border-b-4 border-transparent hover:border-blue-500 hover:text-blue-500 cursor-pointer pb-3 ${selected ? 'text-blue-500 border-blue-500' : ''}`
+    const style = `flex items-center space-x-1 border-b-4  hover:border-blue-500 hover:text-blue-500 cursor-pointer pb-3 ${selected ? 'text-blue-500 border-blue-500' : 'border-transparent'}`
 
     const handleSelectTab = (select)=>{
         router.push(`/search?term=${params.get("term")}&searchType=${title==="Images"?"image":""}`)

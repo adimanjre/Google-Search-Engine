@@ -52,8 +52,9 @@ const SearchHeader = () => {
              </form>
              <User className="ml-auto whitespace-nowrap"/>
         </div>
+        <SearchHeaderOptions/>
     </header>
-    <SearchHeaderOptions/>
+    
     </>
   )
 }

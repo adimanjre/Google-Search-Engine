@@ -1,13 +1,30 @@
 import React from 'react'
+import SearchResult from './SearchResult';
 
 const SearchResults = ({searchResult}) => {
-    const {formattedTotalResults, formattedSearchTime} = searchResult.searchInformation;
+    console.log(searchResult);
+    const {formattedTotalResults, formattedSearchTime} = searchResult?.searchInformation;
   return (
-    <div className='w-full mx-auto px-5 sm:pl-[5%] md:pl-[14%] lg:pl-52'>
+    <>
+        {searchResult && <div className='w-full mx-auto px-5 sm:pl-[5%] md:pl-[14%] lg:pl-52'>
         <p className='text-gray-700 my-3 text-sm'>
             About {formattedTotalResults} Results ({formattedSearchTime} Seconds)
         </p>
-    </div>
+        <ul>
+            {
+                searchResult.items.map(result=> 
+                <SearchResult 
+                key={result.link} 
+                htmlTitle={result.htmlTitle}
+                htmlSnippet={result.htmlSnippet}
+                displayLink={result.displayLink}
+                htmlFormattedUrl={result.htmlFormattedUrl}
+                link={result.link}
+                />)
+            }
+        </ul>
+    </div>}
+    </>
   )
 }
 
