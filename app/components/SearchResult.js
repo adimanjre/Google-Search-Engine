@@ -1,6 +1,6 @@
 import Parser from "html-react-parser"
 
-const SearchResult = ({link, htmlTitle, htmlSnippet, displayLink, htmlFormattedUrl }) => {
+const SearchResult = ({link, htmlTitle, htmlSnippet, displayLink }) => {
   return (
     <li className="max-w-3xl mb-8 ">
         <div className="group cursor-pointer">
