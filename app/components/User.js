@@ -7,7 +7,7 @@ const User = ({...props}) => {
 
   const {data:session} = useSession();
 
-  const logout = <Image onClick={signOut} src={session?.user.image} height={50} width={50}  className="h-10 w-10 rounded-full cursor-pointer p-1 hover:shadow-lg shadow-gray-600" alt="user profile"/>;
+  const logout = <Image onClick={signOut} src={session?.user.image} height={50} width={50}  className="h-12 w-12 rounded-full cursor-pointer p-1 hover:shadow-lg shadow-gray-600 object-contain" alt="user profile"/>;
 
   const login = <button className="bg-indigo-500 text-white px-5 py-3 rounded-lg cursor-pointer hover:shadow-xl hover:shadow-indigo-200 font-medium hover:brightness-110" onClick={signIn}>Sign In</button>
 

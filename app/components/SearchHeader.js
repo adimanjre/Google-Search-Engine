@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation"
 import {MagnifyingGlassIcon, MicrophoneIcon, XMarkIcon} from "@heroicons/react/24/solid"
 import User from "./User";
 import { useRef } from "react";
+import SearchHeaderOptions from "../components/SearchHeaderOptions"
 
 
 const SearchHeader = () => {
@@ -23,17 +24,16 @@ const SearchHeader = () => {
     }
 
   return (
-    <header className="sticky top-0 bg-white ">
+    <>
+      <header className="sticky top-0 bg-white ">
         <div className="flex w-full p-5 items-center gap-5">
              <Image 
              onClick={() => router.push('/')}
-             
              alt="google logo" 
              src={'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png'} 
              height={'50'}
-             objectFit="cover" 
              width={'200'}
-             className="cursor-pointer"
+             className="cursor-pointer object-contain h-12"
              />
              <form action={handleSearch} className="flex w-full  gap-3 flex-grow  px-5 py-3 rounded-full items-center  border border-gray-300 hover:shadow-lg focus-within:shadow-lg lg:max-w-3xl">
                 <input 
@@ -53,6 +53,8 @@ const SearchHeader = () => {
              <User className="ml-auto whitespace-nowrap"/>
         </div>
     </header>
+    <SearchHeaderOptions/>
+    </>
   )
 }
 
