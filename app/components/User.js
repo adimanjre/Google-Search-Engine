@@ -3,7 +3,7 @@
 import { signIn, signOut, useSession } from "next-auth/react"
 import Image from "next/image";
 
-const User = () => {
+const User = ({...props}) => {
 
   const {data:session} = useSession();
 
@@ -12,7 +12,7 @@ const User = () => {
   const login = <button className="bg-indigo-500 text-white px-5 py-3 rounded-lg cursor-pointer hover:shadow-xl hover:shadow-indigo-200 font-medium hover:brightness-110" onClick={signIn}>Sign In</button>
 
   return (
-    <div>{session ? logout : login}</div>
+    <div {...props}>{session ? logout : login}</div>
   )
 }
 
