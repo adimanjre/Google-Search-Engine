@@ -1,3 +1,5 @@
+"use client"
+
 import SearchHeaderOption from "./SearchHeaderOption"
 import { MagnifyingGlassIcon, PhotoIcon } from "@heroicons/react/24/solid"
 import { useSearchParams } from "next/navigation"
