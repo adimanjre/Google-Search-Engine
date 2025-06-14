@@ -14,7 +14,7 @@ const SearchHeader = () => {
     const handleSearch = (formData)=>{
         const search = formData.get("search");
         if(!search.trim()) return;
-        router.push(`search?term=${search.trim()}`);
+        router.push(`search?term=${search.trim()}&searchType= `);
     }
 
     const handleClearInput = ()=>{

@@ -13,7 +13,7 @@ export default function Home() {
  function handleSearch(formData){
   const term = formData.get('search');
   if(!term.trim()) return;
-  router.push(`/search?term=${term.trim()}`);
+  router.push(`/search?term=${term.trim()}&searchType=`);
  }
 
   return (

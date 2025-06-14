@@ -2,6 +2,7 @@
 
 import Head from "next/head"
 import SearchHeader from "../components/SearchHeader"
+import SearchHeaderOptions from "../components/SearchHeaderOptions"
 
 const Search = () => {
   return (
@@ -11,6 +12,7 @@ const Search = () => {
         </Head>
         
         <SearchHeader/>
+        <SearchHeaderOptions/>
     </div>
   )
 }
