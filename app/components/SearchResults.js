@@ -3,7 +3,7 @@ import SearchResult from "./SearchResult";
 import Pagination from "./Pagination";
 
 const SearchResults = ({ searchResult }) => {
-  console.log(searchResult);
+
   const { formattedTotalResults, formattedSearchTime } =
     searchResult?.searchInformation;
   return (

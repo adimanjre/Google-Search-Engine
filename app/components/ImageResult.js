@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 const ImageResult = ({result}) => {
-    console.log(result);
+
   return (
     <div className="group mb-8">
         <a href={result.image.contextLink}>
