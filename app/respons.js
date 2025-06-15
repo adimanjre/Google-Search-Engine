@@ -758,3 +758,252 @@ export const Response = {
         }
     ]
 }
+
+export const ImageResponse = {
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - next js",
+                "totalResults": "15500000000",
+                "searchTerms": "next js",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "b1e3949c536e748ee",
+                "searchType": "image"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - next js",
+                "totalResults": "15500000000",
+                "searchTerms": "next js",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "b1e3949c536e748ee",
+                "searchType": "image"
+            }
+        ]
+    },
+    "context": {
+        "title": "google search engine"
+    },
+    "searchInformation": {
+        "searchTime": 0.552072,
+        "formattedSearchTime": "0.55",
+        "totalResults": "15500000000",
+        "formattedTotalResults": "15,500,000,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "What's New in Next.js 15 RC?",
+            "htmlTitle": "What&#39;s New in <b>Next</b>.<b>js</b> 15 RC?",
+            "link": "https://www.syncfusion.com/blogs/wp-content/uploads/2024/08/Whats-New-in-Next.js-15-RC.png",
+            "displayLink": "www.syncfusion.com",
+            "snippet": "What's New in Next.js 15 RC?",
+            "htmlSnippet": "What&#39;s New in <b>Next</b>.<b>js</b> 15 RC?",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://www.syncfusion.com/blogs/post/whats-new-in-next-js-15-rc",
+                "height": 668,
+                "width": 1193,
+                "byteSize": 92963,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLEbAwdV42bq2GO-Eaw3gqtp_hCGDR65Jh43MuiTSEl7wjRGuJ6MTv4s&s",
+                "thumbnailHeight": 84,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Auth0 Stable Support For Next.js App Router!",
+            "htmlTitle": "Auth0 Stable Support For <b>Next</b>.<b>js</b> App Router!",
+            "link": "https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg",
+            "displayLink": "auth0.com",
+            "snippet": "Auth0 Stable Support For Next.js App Router!",
+            "htmlSnippet": "Auth0 Stable Support For <b>Next</b>.<b>js</b> App Router!",
+            "mime": "image/jpeg",
+            "fileFormat": "image/jpeg",
+            "image": {
+                "contextLink": "https://auth0.com/blog/auth0-stable-support-for-nextjs-app-router/",
+                "height": 1056,
+                "width": 1176,
+                "byteSize": 49342,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYZa3ZvCCCEtxEaDly1AZppDGDPihfmEYFymV8bruEguJk3qo3TZ6eDbQ&s",
+                "thumbnailHeight": 135,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "How to Migrate from React to Next JS: A Full Guide",
+            "htmlTitle": "How to Migrate from React to <b>Next JS</b>: A Full Guide",
+            "link": "https://maybe.works/media/blogs/migrate-from-react-to-next-js/1100x600.jpg",
+            "displayLink": "maybe.works",
+            "snippet": "How to Migrate from React to Next JS: A Full Guide",
+            "htmlSnippet": "How to Migrate from React to <b>Next JS</b>: A Full Guide",
+            "mime": "image/jpeg",
+            "fileFormat": "image/jpeg",
+            "image": {
+                "contextLink": "https://maybe.works/blogs/migrate-from-react-to-next-js",
+                "height": 600,
+                "width": 1100,
+                "byteSize": 61120,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDosoN7bKFn9OYrwJ-ssHHVzaZIdH24Cap7ka7qwvYagsZZrYB8QpxbbM&s",
+                "thumbnailHeight": 82,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Next.js Testing - testRigor AI-Based Automated Testing Tool",
+            "htmlTitle": "<b>Next</b>.<b>js</b> Testing - testRigor AI-Based Automated Testing Tool",
+            "link": "https://testrigor.com/wp-content/uploads/2023/04/nextjs-logo.png",
+            "displayLink": "testrigor.com",
+            "snippet": "Next.js Testing - testRigor AI-Based Automated Testing Tool",
+            "htmlSnippet": "<b>Next</b>.<b>js</b> Testing - testRigor AI-Based Automated Testing Tool",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://testrigor.com/next-js-testing/",
+                "height": 270,
+                "width": 957,
+                "byteSize": 4485,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE8U7Hx_MpdG-lTh78czYOTEpMpkrMSniPafZ8q6fUU3p5K_1t8wMvsQ&s",
+                "thumbnailHeight": 42,
+                "thumbnailWidth": 148
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Understanding Next.js Server Actions With Examples",
+            "htmlTitle": "Understanding <b>Next</b>.<b>js</b> Server Actions With Examples",
+            "link": "https://cdn.hashnode.com/res/hashnode/image/upload/v1691580800840/266f086a-9600-4c05-bc27-57f1e168bf17.png",
+            "displayLink": "blog.greenroots.info",
+            "snippet": "Understanding Next.js Server Actions With Examples",
+            "htmlSnippet": "Understanding <b>Next</b>.<b>js</b> Server Actions With Examples",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://blog.greenroots.info/understanding-nextjs-server-actions-with-examples",
+                "height": 630,
+                "width": 1200,
+                "byteSize": 73629,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjNxIIPa0XCSe06ZvCOLSAWf0c2sS1WPNlACmTCQYy6hzQNBG1rWHhJE&s",
+                "thumbnailHeight": 79,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Understanding Server Components in React 18 and Next.js 13 | by ...",
+            "htmlTitle": "Understanding Server Components in React 18 and <b>Next</b>.<b>js</b> 13 | by ...",
+            "link": "https://miro.medium.com/v2/resize:fit:1400/1*aF1u1vDDft_pzrZ0SlLRuw.png",
+            "displayLink": "adhithiravi.medium.com",
+            "snippet": "Understanding Server Components in React 18 and Next.js 13 | by ...",
+            "htmlSnippet": "Understanding Server Components in React 18 and <b>Next</b>.<b>js</b> 13 | by ...",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://adhithiravi.medium.com/what-are-server-components-and-client-components-in-react-18-and-next-js-13-6f869c0c66b0",
+                "height": 573,
+                "width": 1243,
+                "byteSize": 90092,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd-RjW4YUXZcpzaw0aPW6tKPGL6d4cQAnzFd3_PeVq1z1mVsJjc9El0w&s",
+                "thumbnailHeight": 69,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Next.js Course – Build Full-Stack Apps with Next.js 13+ and TypeScript",
+            "htmlTitle": "<b>Next</b>.<b>js</b> Course – Build Full-Stack Apps with <b>Next</b>.<b>js</b> 13+ and TypeScript",
+            "link": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2F8MbtJ4hTAaOk3KPcptqZ&w=3840&q=75",
+            "displayLink": "codewithmosh.com",
+            "snippet": "Next.js Course – Build Full-Stack Apps with Next.js 13+ and TypeScript",
+            "htmlSnippet": "<b>Next</b>.<b>js</b> Course – Build Full-Stack Apps with <b>Next</b>.<b>js</b> 13+ and TypeScript",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://codewithmosh.com/p/ultimate-nextjs-series",
+                "height": 1357,
+                "width": 1920,
+                "byteSize": 53223,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSIBt_9_wj3jLln-fhuPQeKSYU_-UEF5poOrSvGYuw4BBKfiAczc5wlA&s",
+                "thumbnailHeight": 106,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "React Framework Battle: Next.js vs. Gatsby vs. Remix",
+            "htmlTitle": "React Framework Battle: <b>Next</b>.<b>js</b> vs. Gatsby vs. Remix",
+            "link": "https://static.flexmonster.com/uploads/2023/07/27093124/next-js-scheme-.png",
+            "displayLink": "www.flexmonster.com",
+            "snippet": "React Framework Battle: Next.js vs. Gatsby vs. Remix",
+            "htmlSnippet": "React Framework Battle: <b>Next</b>.<b>js</b> vs. Gatsby vs. Remix",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://www.flexmonster.com/blog/react-based-frameworks-comparison-remix-nextjs-gatsby/",
+                "height": 1134,
+                "width": 1582,
+                "byteSize": 149246,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYNdFiDl-Ngmah-_DvlckYjFgS_G3hdItX13dcTwSOggBmkmhNr7lCgfw&s",
+                "thumbnailHeight": 108,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Guides: Authentication | Next.js",
+            "htmlTitle": "Guides: Authentication | <b>Next</b>.<b>js</b>",
+            "link": "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fdocs%2Flight%2Fauthentication-overview.png&w=3840&q=75",
+            "displayLink": "nextjs.org",
+            "snippet": "Guides: Authentication | Next.js",
+            "htmlSnippet": "Guides: Authentication | <b>Next</b>.<b>js</b>",
+            "mime": "image/",
+            "fileFormat": "image/",
+            "image": {
+                "contextLink": "https://nextjs.org/docs/app/guides/authentication",
+                "height": 2766,
+                "width": 3200,
+                "byteSize": 265437,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNBgSIkv85Q7mSWIz1fC5xtMlF4CdJI3vY4r7JNkD36M2-cJqHdgqFtvvZ&s",
+                "thumbnailHeight": 130,
+                "thumbnailWidth": 150
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Next.js | Drupal.org",
+            "htmlTitle": "<b>Next</b>.<b>js</b> | Drupal.org",
+            "link": "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+            "displayLink": "www.drupal.org",
+            "snippet": "Next.js | Drupal.org",
+            "htmlSnippet": "<b>Next</b>.<b>js</b> | Drupal.org",
+            "mime": "image/png",
+            "fileFormat": "image/png",
+            "image": {
+                "contextLink": "https://www.drupal.org/project/next",
+                "height": 720,
+                "width": 720,
+                "byteSize": 36630,
+                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfkKaaiwwys96BgMI7iKwgX9aSf_c2YPLgdeehN1BAveCnh-YvqXtuoVCF&s",
+                "thumbnailHeight": 140,
+                "thumbnailWidth": 140
+            }
+        }
+    ]
+}
