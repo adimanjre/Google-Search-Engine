@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔍 Google Search Clone
 
-## Getting Started
+A Google Search Engine clone built with **Next.js**, allowing users to log in via their Google account and perform real-time searches using the **Google Custom Search API**. Designed to closely replicate the original Google search experience, including text and image search functionality.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+
+https://google-search-engine-eta.vercel.app/
+
+---
+
+## 📌 Features
+
+- 🔐 **Google Login with NextAuth.js**  
+  Users can log in securely with their Google accounts using OAuth 2.0 via NextAuth.js.
+
+- 🔎 **Real-Time Search via Google API**  
+  Search results are fetched from the **Google Custom Search API**, including title, link, snippet, and image (if available).
+
+- 🖼️ **Image Search Support**  
+  Option to view image results based on the query, similar to Google Images.
+
+- 💡 **Google-Style UI**  
+  Clean, minimalistic, and responsive design replicating the look of Google’s search engine, built using **Tailwind CSS**.
+
+- ⚡ **Fast Performance with SSR**  
+  Built with Next.js and server-side rendering for fast load times and improved SEO.
+
+- 🔐 **Session Management**  
+  User sessions are managed securely; only authenticated users can access the search functionality.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend & Framework**: Next.js, React.js  
+- **Authentication**: NextAuth.js with Google OAuth  
+- **Search API**: Google Custom Search JSON API  
+- **Styling**: Tailwind CSS  
+- **State & Session**: React Context + NextAuth session management
+
+---
+
+## 🧪 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/google-search-clone.git
+cd google-search-clone
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Google OAuth Credentials
+Go to Google Developer Console
 
-## Learn More
+Create a new project
 
-To learn more about Next.js, take a look at the following resources:
+Enable OAuth consent screen
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create OAuth client ID for Web Application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add authorized redirect URI:
+http://localhost:3000/api/auth/callback/google
 
-## Deploy on Vercel
+Copy the Client ID and Client Secret
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 4. Google Custom Search API
+Go to [Programmable Search Engine](https://programmablesearchengine.google.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a new search engine
+
+Get your Search Engine ID
+
+Enable Custom Search JSON API in Google Developer Console
+
+Get your API Key
+
+```env
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+NEXTAUTH_SECRET=your_random_secret
+NEXTAUTH_URL=http://localhost:3000
+
+GOOGLE_API_KEY=your_google_api_key
+GOOGLE_CSE_ID=your_custom_search_engine_id
+```
+
+### 5. Run the Development Server
+```bash
+npm run dev
+```
+
